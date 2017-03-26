@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,700,900" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <title>lisa holub</title>
+<style>
+body {margin:0;}
+
+</style>
+</head>
+<body>
+
+<!-- Hier beginnt meine Navigation -->
+
+  <div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="#contact">kontakt</a>
+  <a href="#timeline">timeline</a>
+  <a href="#news">good to know</a>
+  <a class="active" href="#about">über mich</a>
+  <a style="float:left" title="lisa holub - bastlerin aus leidenschaft" href="#about" id="logo"><img src="../Logo/logo_grau.png" height="40px" /></a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+<!-- Hier endet meine Navigation -->
+
+
+<!-- Hier beginnt mein über-mich-Hintergrund -->
+
+<div id="background-me" style="background-image: url(../Hintergrundbild/wood.jpg)";>
+  <div id="block-me-inline">
+    <div class="block-me-inline" id="block-me">
+      <h3>bastlerin aus leidenschaft.</h3>
+      <h1><strong>lisa holub</strong></h1>
+      <p id="text-me">Mein Name ist Lisa Holub und ich bin in einer Wiener Medienagentur für mobile Technologien und Kommunikationslösungen tätig. Dort agiere ich als Project Manager mit einem Fokus auf mobile Websites.</p>
+      <br>
+      <br>
+    </div>
+    <div class="block-me-inline"  id="pic-me">
+      <img src="../Bilder/_L7_3871.jpg" width="300px"; />
+    </div>
+  </div>
+</div>
+
+<!-- Hier endet mein über-mich-Hintergrund -->
+
+
+<!-- Hier beginnt mein Good to know-Hintergrund -->
+
+<div id="background-gallery";>
+  <a name="news"><h2 id="h2_timeline">good to know</h2></a>
+  <p id="text-gallery">Meine Organe in Kästchenform - oder anders gesagt:
+    <br>Alles, was mir Freude bereitet in einer Gallerie dargestellt.</p>
+</div>
+<div id="gallery";>
+  <div id="goodtoknow" class="rope">
+    <span id="gallery-description">
+      <a href="#rope" id="header-link1" onclick="show('popup1')">aerial akrobatik.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="beads">
+    <span id="gallery-description">
+      <a href="#beads" id="header-link1" onclick="show('popup2')">kreatives & basteln.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="macarons">
+    <span id="gallery-description">
+      <a href="#macarons" id="header-link1" onclick="show('popup3')">backen.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="girls">
+    <span id="gallery-description">
+      <a href="#girls" id="header-link1" onclick="show('popup4')">social life.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="book">
+    <span id="gallery-description">
+      <a href="#book" id="header-link1" onclick="show('popup5')">lesen.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="cat">
+    <span id="gallery-description">
+      <a href="#cat" id="header-link1" onclick="show('popup6')">katzen.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="comic">
+    <span id="gallery-description">
+      <a href="#comic" id="header-link1" onclick="show('popup7')">marvel filme.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="mtb">
+    <span id="gallery-description">
+      <a href="#mtb" id="header-link1" onclick="show('popup8')">mountainbike.</a>
+    </span>
+  </div>
+  <div id="goodtoknow" class="travel">
+    <span id="gallery-description">
+      <a href="#book" id="header-link1" onclick="show('popup9')">reisen.</a>
+    </span>
+  </div>
+</div>
+
+<div class="overlay">
+  <div class="popup" id="popup1">
+  	<a name="rope" onclick="hide('popup1')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">aerial akrobatik.</h2>
+  		<p>Seit einigen Jahren ist Sport ein fixer Bestandteil meines Lebens geworden. Vor allem die Luftakrobatik hat es mir hier besonders angetan. Hier habe ich schon quer durch die Bank alles getestet: Ob auf Tüchern, am Ring oder wie am Foto zu sehen ist auf meinem eigenen Seil. Hauptsache ich befinde mich in luftiger Höhe - am besten noch kopfüber.</p>
+  		<p>Ein paar Fakten zum Aerial Rope Shooting:</p>
+  		<ul>
+  			<li>Ja, das bin ich.</li>
+  			<li>Nein, das ist keine Montage. Das Shooting hat wirklich im Freien stattgefunden.</li>
+  			<li>Ja, es war wirklich WIRKLICH kalt.</li>
+  		</ul>
+  		<img id="popup-img" src="../Hobbies/rope.jpg" />
+  		<a name="rope" onclick="hide('popup1')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup2">
+  	<a name="beads" onclick="hide('popup2')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">kreatives & basteln.</h2>
+  		<p>Schon von klein auf habe ich mich für kreative Tätigkeiten begeistert. Ob glitzernde Ketten, Geweihe mit Serviettentechnik verziert oder bemalte Leinwände - mir fällt immer etwas neues ein.</p>
+  		<img id="popup-img" src="../Hobbies/beads.jpg" />
+  		<a name="beads" onclick="hide('popup2')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup3">
+  	<a name="macarons" onclick="hide('popup3')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">backen.</h2>
+  		<p>Desserts... Meine größte Sünde. Ich liebe es, sie zuzubereiten - aber natürlich auch zu essen. Meine Familie ist hier besonders von meinen selbstgebackenen Macarons angetan, im Sommer darf's auch schon mal ein Eis sein.</p>
+  		<img id="popup-img" src="../Hobbies/macarons.jpg" />
+  		<a name="macarons" onclick="hide('popup3')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup4">
+  	<a name="girls" onclick="hide('popup4')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">social life.</h2>
+  		<p>Freunde und Familie sind mir sehr wichtig. Mit der Familie im Garten an einem warmen Sommertag grillen genieße ich genauso sehr wie mit Freundinnen einen entspannten Abend mit Cocktails zu verbringen</p>
+  		<img id="popup-img" src="../Hobbies/girls.jpg" />
+  		<a name="girls" onclick="hide('popup4')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup5">
+  	<a name="book" onclick="hide('popup5')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">lesen.</h2>
+  		<p>Was gibt es entspannenderes, als einen verregneten Sonntag auf der Couch lesend zu verbringen? Aber bitte Printformate, ich möchte sie ja schließlich auch ins Regal stellen können.</p>
+  		<img id="popup-img" src="../Hobbies/book.jpg" />
+  		<a name="book" onclick="hide('popup5')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup6">
+  	<a name="cat" onclick="hide('popup6')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">katzen.</h2>
+  		<p>Okay, ich geb's zu - ich spiele für's Team "Katzen"! Zwar habe ich keine eigene, passe aber regelmäßig auf das kleine Model (Monster) meiner Eltern am Foto unterhalb auf. </p>
+  		<img id="popup-img" src="../Hobbies/cat.jpg" />
+  		<a name="cat" onclick="hide('popup6')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup7">
+  	<a name="cat" onclick="hide('popup7')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">marvel filme.</h2>
+  		<p>Spätestens seit dem Release von "Big Bang Theory" ist es ja irgendwie in, etwas nerdy zu sein. Meine Schwäche: Marvel Verfilmungen! Ob Thor, Wolverine oder Iron Man - mein Herz schlägt für all diese Männer.</p>
+  		<img id="popup-img" src="../Hobbies/comic.jpg" />
+  		<a name="cat" onclick="hide('popup7')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup8">
+  	<a name="mtb" onclick="hide('popup8')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">mountainbike.</h2>
+  		<p>Ich sage nicht, dass ich es gut kann. Genauer gesagt, bin ich sogar ziemlich schlecht. Trotzdem haben mein Freund und ich uns letztes Jahr Mountainbikes gekauft und ich liebe unsere gemeinsamen Ausflüge. Auf ebenen Strecken. Wenn sie nicht länger als eine Stunde dauern.</p>
+  		<img id="popup-img" src="../Hobbies/mtb.jpg" />
+  		<a name="mtb" onclick="hide('popup8')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+  <div class="popup" id="popup9">
+  	<a name="travel" onclick="hide('popup9')" id="popup-close">X</a>
+  	<div id="popup-text">
+  		<h2 id="popup-header">reisen.</h2>
+  		<p>Ob Städtereisen oder gemütliche Badeurlaube an romantischen Stränden - ich liebe es, zu reisen und neue Orte zu entdecken.</p>
+  		<img id="popup-img" src="../Hobbies/travel.jpg" />
+  		<a name="travel" onclick="hide('popup9')" id="popup-link">zurück.</a>
+  	</div>
+  </div>
+
+
+</div>
+
+
+<script>
+$ = function(id) {
+  return document.getElementById(id);
+}
+
+var show = function(id) {
+	$(id).style.display ='block';
+}
+var hide = function(id) {
+	$(id).style.display ='none';
+}
+</script>
+
+<!-- Hier endet mein Good to know-Hintergrund -->
+
+
+<!-- Hier beginnt mein timeline-Hintergrund -->
+
+<div id="background-timeline";>
+  <a name="timeline"><h2 id="h2_timeline">timeline</h2></a>
+</div>
+
+<section class="timeline">
+  <ul>
+    <li>
+      <div>
+        <time>2006</time>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Jun. - Aug. 2008</time>
+        <br><span class="job_company">Café-Restaurant Servus</span>
+        <br><span class="job_position">Küchenassistenz (Praktikum)</span><br>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Jun. - Aug. 2009</time>
+        <br><span class="job_company">Landhaus Fuhrgassl-Huber</span>
+        <br><span class="job_position">Front Office Mitarbeiterin (Praktikum)</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Jun. - Jul. 2010</time>
+        <br><span class="job_company">Club Magic Life, Kos</span>
+        <br><span class="job_position">Front Office Mitarbeiterin (Praktikum)</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Sept. 2006 - Jun. 2011</time>
+        <br><span class="job_company">Tourismusschule MODUL</span>
+        <br><span class="job_position">Hotelmanagement</span>
+        <br><span class="job_description">Ausbildung in den Bereichen Hotel- & Tourismus&shy;management. Abschluss: Matura & Tourismuskauffrau.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Feb. 2014 - Jul. 2014</time>
+        <br><span class="job_company">Checkpointmedia AG</span>
+        <br><span class="job_position">Projektassistenz</span>
+        <br><span class="job_description">Pflichtpraktikum. Das Aufgabengebiet umfasste unter anderm das Arbeiten im CMS Contao, Erstellen von Präsentationen sowie Recherchearbeiten.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Sept. 2013</time>
+        <br>Erste eigene Wohnung :)
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Sept. 2011 - Jan. 2013</time>
+        <br><span class="job_company">Campus & City Radio 94.4 , St. Pölten</span>
+        <br><span class="job_position">Marketing, Beitragsgestaltung</span>
+        <br><span class="job_description">Die Aufgaben umfassten unter anderem Planung & Durchführung von Marketing- und Event-Aktivitäten sowie das Halten von Interviews.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Sept. 2011 - Sept. 2014</time>
+        <br><span class="job_company">FH St. Pölten</span>
+        <br><span class="job_position">Medienmanagement</span>
+        <br><span class="job_description">Medien- sowie Wirtschafts&shy;wissenschaftliches Studium, welches Grundkompetenzen in Print, Radio, Video, und Internet vermittelt. Vertiefung in Content Management & Marketing.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Mär. 2016 - Sept. 2016</time>
+        <br><span class="job_company">Projektmanagement Kurs</span>
+        <br><span class="job_position">WIFI Wien</span>
+        <br><span class="job_description">Ausbildungskurs "Basiswissen kompakt" sowie "Aufbau & Vertiefung."</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Nov. 2016</time>
+        <br><span class="job_company">HTML & CSS Kurs</span>
+        <br><span class="job_position">WIFI Wien</span>
+        <br><span class="job_description">HTML & CSS Basiskurs.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Seit Sept. 2014</time>
+        <br><span class="job_company">IQ mobile GmbH</span>
+        <br><span class="job_position">Project Manager</span>
+        <br><span class="job_description">Tätig in den Bereichen mobile Websites, Apps sowie Messaging & Chatbots.</span>
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Mär. 2017</time>
+        <br>Erste eigene Website :)
+      </div>
+    </li>
+    <li>
+      <div>
+        <time>Feb. 2017 - Mai 2017</time>
+        <br><span class="job_company">Webdevelopment Kurs</span>
+        <br><span class="job_position">Smartninja</span>
+        <br><span class="job_description">Ausbildungskurs rund um Webdevelopment, sowohl Frontend als auch Backend."</span>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Hier endet mein timeline-Hintergrund -->
+
+
+<!-- Hier beginnt mein kontakt-Hintergrund -->
+
+<div id="background-contact" style="background-image: url(../Hintergrundbild/brick.jpg)";>
+  <a name="contact"><h2 id="h2_contact">kontakt</h2></a>
+  <p id="text-contact">Ich freue mich über Kontaktanfragen via Mail, Xing oder LinkedIn.</p>
+  <div class="block-contact-inline">
+    <a id="buttons-contact" href="mailto:lisa.holub92@gmail.com?Subject=Kontaktanfrage"><img src="../Logo/Mail.png" width="80px"; /></a>
+    <a id="buttons-contact" href="https://www.xing.com/profile/Lisa_Holub" target="_blank"><img src="../Logo/xing.png" width="80px"; /></a>
+    <a id="buttons-contact" href="https://www.linkedin.com/in/lisa-holub-133518138/" target="_blank"><img src="../Logo/LinkedIn.png" width="80px"; /></a>
+  </div>
+</div>
+
+<!-- Hier endet mein kontakt-Hintergrund -->
+
+</body>
+</html>
