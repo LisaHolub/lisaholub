@@ -8,7 +8,6 @@
   <title>lisa holub</title>
 <style>
 body {margin:0;}
-
 </style>
 </head>
 <body>
@@ -66,51 +65,69 @@ function myFunction() {
     <br>Alles, was mir Freude bereitet in einer Gallerie dargestellt.</p>
 </div>
 <div id="gallery";>
-  <div id="goodtoknow" class="rope">
-    <span id="gallery-description">
-      <a href="#rope" id="header-link1" onclick="show('popup1')">aerial akrobatik.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="beads">
-    <span id="gallery-description">
-      <a href="#beads" id="header-link1" onclick="show('popup2')">kreatives & basteln.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="macarons">
-    <span id="gallery-description">
-      <a href="#macarons" id="header-link1" onclick="show('popup3')">backen.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="girls">
-    <span id="gallery-description">
-      <a href="#girls" id="header-link1" onclick="show('popup4')">social life.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="book">
-    <span id="gallery-description">
-      <a href="#book" id="header-link1" onclick="show('popup5')">lesen.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="cat">
-    <span id="gallery-description">
-      <a href="#cat" id="header-link1" onclick="show('popup6')">katzen.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="comic">
-    <span id="gallery-description">
-      <a href="#comic" id="header-link1" onclick="show('popup7')">marvel filme.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="mtb">
-    <span id="gallery-description">
-      <a href="#mtb" id="header-link1" onclick="show('popup8')">mountainbike.</a>
-    </span>
-  </div>
-  <div id="goodtoknow" class="travel">
-    <span id="gallery-description">
-      <a href="#book" id="header-link1" onclick="show('popup9')">reisen.</a>
-    </span>
-  </div>
+  <a href="#rope" id="header-link1" onclick="show('popup1')">
+    <div id="goodtoknow" class="rope">
+      <span id="gallery-description">
+        aerial akrobatik.
+      </span>
+    </div>
+  </a>
+  <a href="#beads" id="header-link1" onclick="show('popup2')">
+    <div id="goodtoknow" class="beads">
+      <span id="gallery-description">
+        kreatives & basteln.
+      </span>
+    </div>
+  </a>
+  <a href="#macarons" id="header-link1" onclick="show('popup3')">
+    <div id="goodtoknow" class="macarons">
+      <span id="gallery-description">
+        backen.
+      </span>
+    </div>
+  </a>
+  <a href="#girls" id="header-link1" onclick="show('popup4')">
+    <div id="goodtoknow" class="girls">
+      <span id="gallery-description">
+        social life.
+      </span>
+    </div>
+  </a>
+  <a href="#book" id="header-link1" onclick="show('popup5')">
+    <div id="goodtoknow" class="book">
+      <span id="gallery-description">
+        lesen.
+      </span>
+    </div>
+  </a>
+  <a href="#cat" id="header-link1" onclick="show('popup6')">
+    <div id="goodtoknow" class="cat">
+      <span id="gallery-description">
+        katzen.
+      </span>
+    </div>
+  </a>
+  <a href="#comic" id="header-link1" onclick="show('popup7')">
+    <div id="goodtoknow" class="comic">
+      <span id="gallery-description">
+        marvel filme.
+      </span>
+    </div>
+  </a>
+  <a href="#mtb" id="header-link1" onclick="show('popup8')">
+    <div id="goodtoknow" class="mtb">
+      <span id="gallery-description">
+        mountainbike.
+      </span>
+    </div>
+  </a>
+  <a href="#book" id="header-link1" onclick="show('popup9')">
+    <div id="goodtoknow" class="travel">
+      <span id="gallery-description">
+        reisen.
+      </span>
+    </div>
+  </a>
 </div>
 
 <div class="overlay">
@@ -218,7 +235,6 @@ function myFunction() {
 $ = function(id) {
   return document.getElementById(id);
 }
-
 var show = function(id) {
 	$(id).style.display ='block';
 }
