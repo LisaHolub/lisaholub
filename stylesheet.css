@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @LisaHolub
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 LisaHolub/lisaholub
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Branch: master Find file Copy pathlisaholub/stylesheet.css
+d0b7efd  an hour ago
+@LisaHolub LisaHolub Update stylesheet.css
+1 contributor
+RawBlameHistory     
+721 lines (608 sloc)  12 KB
 a {
   text-decoration: none;
   cursor: pointer;
@@ -49,6 +67,9 @@ a {
     float: right;
     display: block;
   }
+}
+
+@media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -110,6 +131,14 @@ h1 {
   max-width: 300px;
 }
 
+@media screen and (max-width: 1000px) {
+  .block-me-inline {
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+}
+
 @media screen and (max-width: 910px) {
   .block-me-inline {
     display: inline-block;
@@ -124,16 +153,6 @@ h1 {
     padding-right: 5px;
   }
 }
-
-@media screen and (max-width: 1000px) {
-  .block-me-inline {
-    display: inline-block;
-    padding-top: 100px;
-    padding-bottom: 200px;
-  }
-}
-
-
 
 /* Hier endet mein über-mich-Hintergrund */
 
@@ -354,27 +373,73 @@ h1 {
   box-shadow:  0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1360px) {
   #goodtoknow {
-    display: inline-block;
+  	display: inline-block;
+    background-size: 400px 301px;
+    width: 400px;
+    height: 301px;
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  #goodtoknow {
+  	display: inline-block;
     background-size: 350px 263px;
     width: 350px;
     height: 263px;
   }
+}
+
+@media screen and (max-width: 1110px) {
+  #goodtoknow {
+  	display: inline-block;
+    background-size: 300px 225px;
+    width: 300px;
+    height: 225px;
+  }
   #gallery-description {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 910px) {
+  #goodtoknow {
+    display: inline-block;
+    background-size: 520px 390px;
+    width: 520px;
+    height: 390px;
+  }
+  #gallery-description {
+    font-size: 35px;
+  }
   .popup {
-    width: 350px;
+    width: 700px;
+    margin-top: -370%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .popup {
+    width: 600px;
   }
   #popup-text {
-    width: 280px;
+    width: 500px;
   }
   #popup-img {
-    width: 280px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .popup {
+    width: 500px;
+  }
+  #popup-text {
+    width: 350px;
+  }
+  #popup-img {
+    width: 350px;
   }
 }
 
@@ -399,77 +464,32 @@ h1 {
   }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 420px) {
   .popup {
-    width: 500px;
+    width: 350px;
   }
   #popup-text {
-    width: 350px;
+    width: 280px;
   }
   #popup-img {
-    width: 350px;
+    width: 280px;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .popup {
-    width: 600px;
-  }
-  #popup-text {
-    width: 500px;
-  }
-  #popup-img {
-    width: 500px;
-  }
-}
-
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 400px) {
   #goodtoknow {
     display: inline-block;
-    background-size: 520px 390px;
-    width: 520px;
-    height: 390px;
-  }
-  #gallery-description {
-    font-size: 35px;
-  }
-  .popup {
-    width: 700px;
-    margin-top: -370%;
-  }
-}
-
-@media screen and (max-width: 1110px) {
-  #goodtoknow {
-  	display: inline-block;
-    background-size: 300px 225px;
-    width: 300px;
-    height: 225px;
-  }
-  #gallery-description {
-    font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 1220px) {
-  #goodtoknow {
-  	display: inline-block;
     background-size: 350px 263px;
     width: 350px;
     height: 263px;
   }
-}
-
-@media screen and (max-width: 1360px) {
-  #goodtoknow {
-  	display: inline-block;
-    background-size: 400px 301px;
-    width: 400px;
-    height: 301px;
+  #gallery-description {
+    font-size: 30px;
   }
 }
 
-/* Hier endet mein Good to know-Hintergrund */
+
+/* Hier beginnt mein Good to know-Hintergrund */
 
 
 /* Hier beginnt mein timeline-Hintergrund */
@@ -585,31 +605,13 @@ time {
   font-size: 12px;
 }
 
-@media screen and (max-width: 400px) {
-  .timeline ul li {
-    padding-top: 5px;
-  }
+
+@media screen and (max-width: 900px) {
   .timeline ul li div {
-    width: 120px;
-    padding: 5px;
-  }
-  .timeline ul li:nth-child(odd) div {
-    left: 35px;
+    width: 250px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -150px;
-  }
-  time {
-    font-size: 10px;
-  }
-  .job_company {
-    font-size: 12px;
-  }
-  .job_position {
-    font-size: 12px;
-  }
-  .job_description: {
-    font-size: 10px;
+    left: -289px;
   }
 }
 
@@ -641,12 +643,31 @@ time {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
+  .timeline ul li {
+    padding-top: 5px;
+  }
   .timeline ul li div {
-    width: 250px;
+    width: 120px;
+    padding: 5px;
+  }
+  .timeline ul li:nth-child(odd) div {
+    left: 35px;
   }
   .timeline ul li:nth-child(even) div {
-    left: -289px;
+    left: -150px;
+  }
+  time {
+    font-size: 10px;
+  }
+  .job_company {
+    font-size: 12px;
+  }
+  .job_position {
+    font-size: 12px;
+  }
+  .job_description: {
+    font-size: 10px;
   }
 }
 
@@ -692,6 +713,15 @@ time {
   padding-bottom: 50px;
 }
 
+@media screen and (max-width: 600px) {
+  #text-contact {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 400px) {
   #text-contact {
     padding-left: 5px;
@@ -705,13 +735,6 @@ time {
   }
 }
 
-@media screen and (max-width: 600px) {
-  #text-contact {
-    padding-left: 5px;
-    padding-right: 5px;
-    width: auto;
-    text-align: center;
-  }
-}
-
 /* Hier endet mein contact-Hintergrund */
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
