@@ -180,75 +180,75 @@ h1 {
 }
 
 .rope {
-  background-image: url("../Hobbies/rope_grey.jpg");
+  background-image: url("Hobbies/rope_grey.jpg");
 }
 
 .rope:hover {
-  background-image: url('../Hobbies/rope.jpg');
+  background-image: url('Hobbies/rope.jpg');
 }
 
 .beads {
-  background-image: url("../Hobbies/beads_grey.jpg");
+  background-image: url("Hobbies/beads_grey.jpg");
 }
 
 .beads:hover {
-  background-image: url('../Hobbies/beads.jpg');
+  background-image: url('Hobbies/beads.jpg');
 }
 
 .book {
-  background-image: url("../Hobbies/book_grey.jpg");
+  background-image: url("Hobbies/book_grey.jpg");
 }
 
 .book:hover {
-  background-image: url('../Hobbies/book.jpg');
+  background-image: url('Hobbies/book.jpg');
 }
 
 .girls {
-  background-image: url("../Hobbies/girls_grey.jpg");
+  background-image: url("Hobbies/girls_grey.jpg");
 }
 
 .girls:hover {
-  background-image: url('../Hobbies/girls.jpg');
+  background-image: url('Hobbies/girls.jpg');
 }
 
 .macarons {
-  background-image: url("../Hobbies/macarons_grey.jpg");
+  background-image: url("Hobbies/macarons_grey.jpg");
 }
 
 .macarons:hover {
-  background-image: url('../Hobbies/macarons.jpg');
+  background-image: url('Hobbies/macarons.jpg');
 }
 
 .cat {
-  background-image: url("../Hobbies/cat_grey.jpg");
+  background-image: url("Hobbies/cat_grey.jpg");
 }
 
 .cat:hover {
-  background-image: url('../Hobbies/cat.jpg');
+  background-image: url('Hobbies/cat.jpg');
 }
 
 .comic {
-  background-image: url("../Hobbies/comic_grey.jpg");
+  background-image: url("Hobbies/comic_grey.jpg");
 }
 
 .comic:hover {
-  background-image: url('../Hobbies/comic.jpg');
+  background-image: url('Hobbies/comic.jpg');
 }
 
 .mtb {
-  background-image: url("../Hobbies/mtb_grey.jpg");
+  background-image: url("Hobbies/mtb_grey.jpg");
 }
 
 .mtb:hover {
-  background-image: url('../Hobbies/mtb.jpg');
+  background-image: url('Hobbies/mtb.jpg');
 }
 
 .travel {
-  background-image: url("../Hobbies/travel_grey.jpg");
+  background-image: url("Hobbies/travel_grey.jpg");
 }
 
 .travel:hover {
-  background-image: url('../Hobbies/travel.jpg');
+  background-image: url('Hobbies/travel.jpg');
 }
 
 
